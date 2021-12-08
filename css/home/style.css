@@ -502,6 +502,10 @@ section {
   padding: 4px;
   background-color: var(--primary-color);
   border-radius: 50%;
+  transition: 0.5s;
+}
+.product__add img:hover {
+  transform: scale(1.2);
 }
 .product__add .product__color {
   height: 40px;
@@ -658,7 +662,6 @@ footer {
   }
 }
 
-/*---------- Reponsive ----------*/
 @media only screen and (max-width: 1024px) {
   .container {
     padding: 20px;
